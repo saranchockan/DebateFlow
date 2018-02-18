@@ -11,9 +11,21 @@
 		8614A454200040FD00A73E4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614A453200040FD00A73E4F /* ViewController.swift */; };
 		8614A456200040FD00A73E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8614A455200040FD00A73E4F /* Assets.xcassets */; };
 		8614A459200040FD00A73E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8614A457200040FD00A73E4F /* Main.storyboard */; };
+		8614A462200043B300A73E4F /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614A461200043B300A73E4F /* View.swift */; };
+		8614A464200043C500A73E4F /* TextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614A463200043C500A73E4F /* TextBox.swift */; };
+		8614A4682000744700A73E4F /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614A4672000744700A73E4F /* Flow.swift */; };
+		8632B18720098291008DE3C2 /* LDFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632B18620098291008DE3C2 /* LDFlow.swift */; };
+		8632B18A2009AF06008DE3C2 /* PFFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632B1882009AF06008DE3C2 /* PFFlow.swift */; };
+		863687012002D02D00E0C813 /* ACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863687002002D02D00E0C813 /* ACViewController.swift */; };
+		86EFB03720030F0A00075843 /* NCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EFB03620030F0A00075843 /* NCViewController.swift */; };
+		86EFB03A20031ABA00075843 /* ProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EFB03820031ABA00075843 /* ProViewController.swift */; };
+		86EFB03D20031ADF00075843 /* ConViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EFB03C20031ADF00075843 /* ConViewController.swift */; };
+		F99F7F2CFF247BB50E787DB4 /* Pods_Debate_Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388E5A99D60DBF63E1AD26DF /* Pods_Debate_Flow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		388E5A99D60DBF63E1AD26DF /* Pods_Debate_Flow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Debate_Flow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0385E9AE40CDC4F3196AC7 /* Pods-Debate Flow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debate Flow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow.release.xcconfig"; sourceTree = "<group>"; };
 		8614A44E200040FD00A73E4F /* Debate Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debate Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8614A451200040FD00A73E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8614A453200040FD00A73E4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +33,17 @@
 		8614A458200040FD00A73E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8614A45A200040FD00A73E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8614A45B200040FD00A73E4F /* Debate_Flow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Debate_Flow.entitlements; sourceTree = "<group>"; };
+		8614A461200043B300A73E4F /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		8614A463200043C500A73E4F /* TextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBox.swift; sourceTree = "<group>"; };
+		8614A4672000744700A73E4F /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		8632B18620098291008DE3C2 /* LDFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDFlow.swift; sourceTree = "<group>"; };
+		8632B1882009AF06008DE3C2 /* PFFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFFlow.swift; sourceTree = "<group>"; };
+		863687002002D02D00E0C813 /* ACViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACViewController.swift; sourceTree = "<group>"; };
+		869FC97F2006E4EF0029EDC2 /* Debate Flow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Debate Flow.entitlements"; sourceTree = "<group>"; };
+		86EFB03620030F0A00075843 /* NCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCViewController.swift; sourceTree = "<group>"; };
+		86EFB03820031ABA00075843 /* ProViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProViewController.swift; sourceTree = "<group>"; };
+		86EFB03C20031ADF00075843 /* ConViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConViewController.swift; sourceTree = "<group>"; };
+		8C81A9B1E1AC583A3E06EC7E /* Pods-Debate Flow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debate Flow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F99F7F2CFF247BB50E787DB4 /* Pods_Debate_Flow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		075C3E84EDF022E83865923F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				388E5A99D60DBF63E1AD26DF /* Pods_Debate_Flow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8614A445200040FD00A73E4F = {
 			isa = PBXGroup;
 			children = (
 				8614A450200040FD00A73E4F /* Debate Flow */,
 				8614A44F200040FD00A73E4F /* Products */,
+				F6C4BBD4E24475A0067C9E5F /* Pods */,
+				075C3E84EDF022E83865923F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,14 +87,33 @@
 		8614A450200040FD00A73E4F /* Debate Flow */ = {
 			isa = PBXGroup;
 			children = (
+				869FC97F2006E4EF0029EDC2 /* Debate Flow.entitlements */,
 				8614A451200040FD00A73E4F /* AppDelegate.swift */,
 				8614A453200040FD00A73E4F /* ViewController.swift */,
 				8614A455200040FD00A73E4F /* Assets.xcassets */,
 				8614A457200040FD00A73E4F /* Main.storyboard */,
 				8614A45A200040FD00A73E4F /* Info.plist */,
 				8614A45B200040FD00A73E4F /* Debate_Flow.entitlements */,
+				8632B18620098291008DE3C2 /* LDFlow.swift */,
+				863687002002D02D00E0C813 /* ACViewController.swift */,
+				86EFB03620030F0A00075843 /* NCViewController.swift */,
+				8632B1882009AF06008DE3C2 /* PFFlow.swift */,
+				86EFB03820031ABA00075843 /* ProViewController.swift */,
+				86EFB03C20031ADF00075843 /* ConViewController.swift */,
+				8614A4672000744700A73E4F /* Flow.swift */,
+				8614A461200043B300A73E4F /* View.swift */,
+				8614A463200043C500A73E4F /* TextBox.swift */,
 			);
 			path = "Debate Flow";
+			sourceTree = "<group>";
+		};
+		F6C4BBD4E24475A0067C9E5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C81A9B1E1AC583A3E06EC7E /* Pods-Debate Flow.debug.xcconfig */,
+				3B0385E9AE40CDC4F3196AC7 /* Pods-Debate Flow.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8614A45E200040FD00A73E4F /* Build configuration list for PBXNativeTarget "Debate Flow" */;
 			buildPhases = (
+				157BEF20087842A8AFB03716 /* [CP] Check Pods Manifest.lock */,
 				8614A44A200040FD00A73E4F /* Sources */,
 				8614A44B200040FD00A73E4F /* Frameworks */,
 				8614A44C200040FD00A73E4F /* Resources */,
+				524122995F79907039054C0C /* [CP] Embed Pods Frameworks */,
+				5A32F9069B98D3A26052D72E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -95,7 +151,13 @@
 				TargetAttributes = {
 					8614A44D200040FD00A73E4F = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -129,13 +191,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		157BEF20087842A8AFB03716 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Debate Flow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		524122995F79907039054C0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Anchors/Anchors.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Anchors.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A32F9069B98D3A26052D72E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8614A44A200040FD00A73E4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8632B18A2009AF06008DE3C2 /* PFFlow.swift in Sources */,
+				863687012002D02D00E0C813 /* ACViewController.swift in Sources */,
+				8632B18720098291008DE3C2 /* LDFlow.swift in Sources */,
 				8614A454200040FD00A73E4F /* ViewController.swift in Sources */,
+				86EFB03A20031ABA00075843 /* ProViewController.swift in Sources */,
+				8614A4682000744700A73E4F /* Flow.swift in Sources */,
+				86EFB03720030F0A00075843 /* NCViewController.swift in Sources */,
 				8614A452200040FD00A73E4F /* AppDelegate.swift in Sources */,
+				86EFB03D20031ADF00075843 /* ConViewController.swift in Sources */,
+				8614A464200043C500A73E4F /* TextBox.swift in Sources */,
+				8614A462200043B300A73E4F /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,32 +386,45 @@
 		};
 		8614A45F200040FD00A73E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C81A9B1E1AC583A3E06EC7E /* Pods-Debate Flow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Debate Flow/Debate_Flow.entitlements";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Debate Flow/Debate Flow.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 44A7VM83X7;
+				DEVELOPMENT_TEAM = W98M3KRKH6;
 				INFOPLIST_FILE = "Debate Flow/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SAC.Debate-Flow";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SAC.DebateFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Debate Flow/Debate Flow-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		8614A460200040FD00A73E4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B0385E9AE40CDC4F3196AC7 /* Pods-Debate Flow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Debate Flow/Debate_Flow.entitlements";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Debate Flow/Debate Flow.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 44A7VM83X7;
+				DEVELOPMENT_TEAM = W98M3KRKH6;
 				INFOPLIST_FILE = "Debate Flow/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SAC.Debate-Flow";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SAC.DebateFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Debate Flow/Debate Flow-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
