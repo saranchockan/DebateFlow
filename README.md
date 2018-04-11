@@ -10,7 +10,7 @@ Flow your debate rounds faster and better than ever!
 # How does it work?
 The app consists of an NScrollView that contains a matrix of NSTextViews. The code is mostly focused on the expansion of the NSTextView and a responsive layout to make the flow more flexible.
 
-# The app is avaiable on the macOS App Store
+# This app is available on the macOS App Store
 https://itunes.apple.com/us/app/debate-flow/id1260188373?mt=12
 
 # Requirements 
