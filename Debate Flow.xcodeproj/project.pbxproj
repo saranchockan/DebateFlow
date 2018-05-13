@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5785EF31AFE4CDCEA73C5840 /* Pods_Debate_Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D032EBF780EFCE1D13F29E /* Pods_Debate_Flow.framework */; };
 		8614A452200040FD00A73E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614A451200040FD00A73E4F /* AppDelegate.swift */; };
 		8614A454200040FD00A73E4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614A453200040FD00A73E4F /* ViewController.swift */; };
 		8614A456200040FD00A73E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8614A455200040FD00A73E4F /* Assets.xcassets */; };
@@ -20,12 +21,11 @@
 		86EFB03720030F0A00075843 /* NCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EFB03620030F0A00075843 /* NCViewController.swift */; };
 		86EFB03A20031ABA00075843 /* ProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EFB03820031ABA00075843 /* ProViewController.swift */; };
 		86EFB03D20031ADF00075843 /* ConViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EFB03C20031ADF00075843 /* ConViewController.swift */; };
-		F99F7F2CFF247BB50E787DB4 /* Pods_Debate_Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388E5A99D60DBF63E1AD26DF /* Pods_Debate_Flow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		388E5A99D60DBF63E1AD26DF /* Pods_Debate_Flow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Debate_Flow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B0385E9AE40CDC4F3196AC7 /* Pods-Debate Flow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debate Flow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow.release.xcconfig"; sourceTree = "<group>"; };
+		02D032EBF780EFCE1D13F29E /* Pods_Debate_Flow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Debate_Flow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0839DE7CEA152BB38575F559 /* Pods-Debate Flow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debate Flow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow.debug.xcconfig"; sourceTree = "<group>"; };
 		8614A44E200040FD00A73E4F /* Debate Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debate Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8614A451200040FD00A73E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8614A453200040FD00A73E4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		86EFB03620030F0A00075843 /* NCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCViewController.swift; sourceTree = "<group>"; };
 		86EFB03820031ABA00075843 /* ProViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProViewController.swift; sourceTree = "<group>"; };
 		86EFB03C20031ADF00075843 /* ConViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConViewController.swift; sourceTree = "<group>"; };
-		8C81A9B1E1AC583A3E06EC7E /* Pods-Debate Flow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debate Flow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow.debug.xcconfig"; sourceTree = "<group>"; };
+		A942DCFF8A826EB386D27788 /* Pods-Debate Flow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debate Flow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,28 +51,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F99F7F2CFF247BB50E787DB4 /* Pods_Debate_Flow.framework in Frameworks */,
+				5785EF31AFE4CDCEA73C5840 /* Pods_Debate_Flow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		075C3E84EDF022E83865923F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				388E5A99D60DBF63E1AD26DF /* Pods_Debate_Flow.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8614A445200040FD00A73E4F = {
 			isa = PBXGroup;
 			children = (
 				8614A450200040FD00A73E4F /* Debate Flow */,
 				8614A44F200040FD00A73E4F /* Products */,
-				F6C4BBD4E24475A0067C9E5F /* Pods */,
-				075C3E84EDF022E83865923F /* Frameworks */,
+				87F50304D1C907F6592D20CC /* Pods */,
+				C4CE352613CF6061A77F852E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,13 +99,21 @@
 			path = "Debate Flow";
 			sourceTree = "<group>";
 		};
-		F6C4BBD4E24475A0067C9E5F /* Pods */ = {
+		87F50304D1C907F6592D20CC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8C81A9B1E1AC583A3E06EC7E /* Pods-Debate Flow.debug.xcconfig */,
-				3B0385E9AE40CDC4F3196AC7 /* Pods-Debate Flow.release.xcconfig */,
+				0839DE7CEA152BB38575F559 /* Pods-Debate Flow.debug.xcconfig */,
+				A942DCFF8A826EB386D27788 /* Pods-Debate Flow.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4CE352613CF6061A77F852E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02D032EBF780EFCE1D13F29E /* Pods_Debate_Flow.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,12 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8614A45E200040FD00A73E4F /* Build configuration list for PBXNativeTarget "Debate Flow" */;
 			buildPhases = (
-				157BEF20087842A8AFB03716 /* [CP] Check Pods Manifest.lock */,
+				67C0858AA619D4D8528DFE9B /* [CP] Check Pods Manifest.lock */,
 				8614A44A200040FD00A73E4F /* Sources */,
 				8614A44B200040FD00A73E4F /* Frameworks */,
 				8614A44C200040FD00A73E4F /* Resources */,
-				524122995F79907039054C0C /* [CP] Embed Pods Frameworks */,
-				5A32F9069B98D3A26052D72E /* [CP] Copy Pods Resources */,
+				250EA71AB5AB3E520FF43331 /* [CP] Embed Pods Frameworks */,
+				1AA68B3B41D5B2EE1717C7F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,25 +192,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		157BEF20087842A8AFB03716 /* [CP] Check Pods Manifest.lock */ = {
+		1AA68B3B41D5B2EE1717C7F3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Debate Flow-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		524122995F79907039054C0C /* [CP] Embed Pods Frameworks */ = {
+		250EA71AB5AB3E520FF43331 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,19 +225,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5A32F9069B98D3A26052D72E /* [CP] Copy Pods Resources */ = {
+		67C0858AA619D4D8528DFE9B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Debate Flow-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Debate Flow/Pods-Debate Flow-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -386,7 +386,7 @@
 		};
 		8614A45F200040FD00A73E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C81A9B1E1AC583A3E06EC7E /* Pods-Debate Flow.debug.xcconfig */;
+			baseConfigurationReference = 0839DE7CEA152BB38575F559 /* Pods-Debate Flow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -409,7 +409,7 @@
 		};
 		8614A460200040FD00A73E4F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B0385E9AE40CDC4F3196AC7 /* Pods-Debate Flow.release.xcconfig */;
+			baseConfigurationReference = A942DCFF8A826EB386D27788 /* Pods-Debate Flow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
