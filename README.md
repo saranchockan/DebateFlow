@@ -16,7 +16,8 @@ The appication is a matrix of textboxes which expands as you flow. Both sides ha
 * You can open multiple flows/sheets.
 * Save flows to a folder.
 
-# Mac App Store
+# Release
+The desktop is available on the macOS App store
 https://itunes.apple.com/us/app/debate-flow/id1260188373?mt=12
 
 # Requirements 
